@@ -3,7 +3,7 @@
 ## Author
 Ferdinand Kiplangat
 ## Desscription
-This is a django application that hosts and displays users photos with the exact datetime when posted to the website including the location and Category of the photos as specified by the owner/administrator. A user can also copy link and check source of photos.
+This is a django application that hosts and displays users photos when posted to the website including the location and Category of the photos as specified by the administrator. A user can also copy link and check source of photos.
 ## Setup Requirements
 * Web Browser
 * django
@@ -22,3 +22,5 @@ View [live](https://feddy400.herokuapp.com/)
 ## License
 This project is under:  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
