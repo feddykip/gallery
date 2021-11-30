@@ -1,0 +1,36 @@
+{%extends 'base.html'%}
+
+
+{%block content%}
+
+
+
+<div class="container ">
+    <div class="row justify-content-center">
+
+        <div class="col-md-12">
+            <div class="col-md-5">
+            <a  href="{%url 'index'%}" class="btn btn-primary my-3 "> previous page</a>
+
+            <div style="height: 90vh">
+                <img style="max-width: 35%; max-height: 35%;" src="{{photo.image.url}}" alt="">
+        </div>  
+        </div> 
+        <div class="col-md-6">
+
+            
+               
+                <div class="card" style="width: 18rem; margin-top: 20px;">
+                    <div class="card-body">
+                        <p>{{photo.description}}</p>
+                        <p>Location: {{photo.location}}</p>
+                       
+                        <a href="{{photo.image.url}}" class="btn btn-info btn-sm m-1">check link</a>
+                        
+                  </div>
+                </div>
+            </div>
+        </div>
+            </div>
+
+{%endblock%}
