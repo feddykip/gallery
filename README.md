@@ -1,5 +1,5 @@
 # Gallery
- personal gallery application of my favorite  photos.
+This is a gallery application that displays location and category of pictures posted.
 ## Author
 Ferdinand Kiplangat
 ## Desscription
